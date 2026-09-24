@@ -14,4 +14,10 @@ return {
             require('nvim-highlight-colors').setup({})
         end,
     },
+    {
+        -- auto-close brackets and quotes: ( [ { " ' `
+        'windwp/nvim-autopairs',
+        event = 'InsertEnter',
+        opts = {},
+    },
 }
